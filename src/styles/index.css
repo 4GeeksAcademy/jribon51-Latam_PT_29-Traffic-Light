@@ -10,3 +10,50 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.light{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.trafficTop{
+
+    width: 50px;
+    height: 150px;
+
+}
+
+.red{
+    background-color: red;
+    
+}
+
+.green{
+    background-color: green;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.container{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.selected{
+    box-shadow: 0 0 20px 30px rgba(255, 255, 255, 0.7);
+}

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 
 const TrafficLight = () => {
-    const [color, setColor] = useState("");
+    const [color, setColor] = useState("red");
     return (
         <div className="principal"> 
                 <div className="trafficTop bg-dark"></div>
